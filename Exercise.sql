@@ -30,7 +30,7 @@ SELECT * FROM bestbuy.products WHERE NAME = 'Macbook';
 SELECT * FROM bestbuy.products WHERE OnSale = 1;
 
 -- find the average price of all products
-SELECT AVG (producst.price) FROM bestbuy.products;
+SELECT AVG (products.price) FROM bestbuy.products;
 
 -- find all Geek Squad employees who don't have a middle initial
 SELECT * FROM bestbuy.employees AS m WHERE m.MiddleInitial IS NULL AND m.title = 'Geek Squad';
